@@ -8,7 +8,7 @@ account I set up.
 
 The framework is organized with a base class containing methods for all of the different calls you could make like get, post, 
 put, or delete. It also contains a package called utility which contains classes and methods to perform common functions
-like creating urls', authenticating, generating a payload, getting values from a response, and getting status codes. There is a 
+like creating urls, authenticating, generating a payload, getting values from a response, and getting status codes. There is a 
 package called pojoClasses that contains the POJO class which is used to make a request. The final package is called
 resources and it contains a JSON file used as a payload to make a request. 
 
