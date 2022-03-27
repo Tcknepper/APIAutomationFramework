@@ -1,6 +1,6 @@
 APIAutomationFramework
 
-I created this project to build on the previous things I learned making the AutomationFramework project. In order to 
+I created this project to build on the previous experience I gained making the AutomationFramework project. In order to 
 expand my knowledge in Software Quality Assurance I decided to learn API testing. I started with API tests in PostMan
 and then used that to move into making automated tests in Java with REST Assured. I made this project to help test myself 
 and solidify what I had learned. The project uses the GitHub API to create and delete repositories in a dummy 
@@ -12,7 +12,7 @@ like creating urls, authenticating, generating a payload, getting values from a 
 package called pojoClasses that contains the POJO class which is used to make a request. The final package is called
 resources and it contains a JSON file used as a payload to make a request. 
 
-The test folder contains the class with the actually tests. I only performed 4 tests in total, 2 for creating and 2 for deleting
+The test source folder contains the class with the actual tests. I only performed 4 tests in total, 2 for creating and 2 for deleting
 repositories. Two of the tests create a repository, one using a POJO, and the other uses the JSON file as a payload. The other two tests
 delete a repository, one uses the JSON file, and the other uses the POJO.
 
